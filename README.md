@@ -64,10 +64,15 @@ Asegúrate de tener creada la base de datos correspondiente (flask_4) en tu gest
 ## Endpoints disponibles
 
 Método	Endpoint	Descripción
+
 GET	/api/productos	Listar todos los productos
+
 GET	/api/productos/<id>	Obtener producto por ID
+
 POST	/api/productos	Crear nuevo producto
+
 PATCH	/api/productos/<id>	Actualizar total o parcialmente un producto
+
 DELETE	/api/productos/<id>	Eliminar un producto
 
 Todos los endpoints devuelven y reciben datos en formato JSON.
@@ -105,8 +110,7 @@ Este proyecto es una API RESTful construida con **Flask** y **Peewee ORM**, comp
 - Flask
 - Peewee ORM
 - MySQL o PostgreSQL (según configuración)
-- dotenv (para manejar variables de entorno)
-- Postman (para pruebas)
+- Bruno (para pruebas)
 
 ## Estructura del proyecto
 
@@ -153,11 +157,15 @@ Asegúrate de tener creada la base de datos correspondiente (flask_4) en tu gest
 
 ## Endpoints disponibles
 Método	Endpoint	Descripción
+
 GET	/api/productos	Listar todos los productos
+
 GET	/api/productos/<id>	Obtener producto por ID
+
 POST	/api/productos	Crear nuevo producto
-PUT	/api/productos/<id>	Actualizar un producto completo
-PATCH	/api/productos/<id>	Actualizar parcialmente un producto
+
+PATCH	/api/productos/<id>	Actualizar total o parcialmente un producto
+
 DELETE	/api/productos/<id>	Eliminar un producto
 
 Todos los endpoints devuelven y reciben datos en formato JSON.
