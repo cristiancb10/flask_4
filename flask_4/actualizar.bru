@@ -1,0 +1,20 @@
+meta {
+  name: actualizar
+  type: http
+  seq: 6
+}
+
+patch {
+  url: http://127.0.0.1:5000/productos/2
+  body: json
+  auth: inherit
+}
+
+body:json {
+    {
+      "nombre": "chocolates actual 2"
+      //"costo": "50.50",
+     // "precio": "30.00",
+     // "stock": 30
+    }
+}
